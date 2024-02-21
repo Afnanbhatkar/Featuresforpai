@@ -38,7 +38,7 @@ def Websiteopener(): # This programe also work as sleep function this function i
      except:
         pass
 Websiteopener()
-print("AI IS READY TO GO!!") # AI IS READY TO GO
+print("AI : IS READY TO GO!!") # AI IS READY TO GO
 
 def Voice(): # This function activates the piai voice because its by default off so we have to on it
    
@@ -78,6 +78,6 @@ def Resultscrapper(): # This function get data of piai and send to us.
    print(f"AI : {Text}")  # Congrats the data is in your hand !! 
 
 while True:
-   Query = input("Enter you query:\n") # Enter your query what you want ask to piai
+   Query = input("AI : Ask me what you want.\nYour name : ") # Enter your query what you want ask to piai
    sendmessage(Query=Query) # Your query will send to sendmessage function and this will send to piai
    Resultscrapper() # Last one scrap the piai answer and print it..!!
