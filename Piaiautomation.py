@@ -13,7 +13,6 @@ ScriptDir = pathlib.Path().absolute()
 import pyautogui
 import warnings
 warnings.simplefilter('ignore')
-from colorama import Fore
 
 
 url =  "https://pi.ai/talk" # website url 
