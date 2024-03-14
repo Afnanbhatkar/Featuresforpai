@@ -72,7 +72,7 @@ def sendmessage(Query): # This function send query to piai
 
 def Resultscrapper(): # This function get data of piai and send to us.
    sleep(1.5) # Sleep for to get data properly
-   xpath = "/html/body/div/main/div/div/div[3]/div[1]/div[2]/div/div/div/div[3]/div/div/div[2]/div[1]/div/div/span" # Piai reply xpath
+   xpath = "/html/body/div/main/div/div/div[3]/div[1]/div[2]/div/div/div/div[3]/div/div/div[2]/div[1]/div/div" # Piai reply xpath
    Text = driver.find_element(by=By.XPATH,value=xpath).text # Picking the reply as a text in Text variable
    sleep(0.5) # Sleep for while
    print(f"AI : {Text}")  # Congrats the data is in your hand !! 
