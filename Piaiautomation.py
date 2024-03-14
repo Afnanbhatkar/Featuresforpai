@@ -53,7 +53,7 @@ def Voice(): # This function activates the piai voice because its by default off
     
     sleep(1) # Sleep for a second !!
     
-    Xpath1 = "/html/body/div/main/div/div/div[3]/div[2]/div[2]/div/div[2]/button[1]" # Voice button xpath
+    Xpath1 = "/html/body/div/main/div/div/div[3]/div[2]/div[2]/div/div[2]/button" # Voice button xpath
     driver.find_element(by=By.XPATH,value=Xpath1).click() # This button activates piai voice so in this program we don't need speechrecognition this piai speaks itself and i swear you gonna love it !!
 
 Voice() # Call Voice function
