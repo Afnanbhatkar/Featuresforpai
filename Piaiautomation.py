@@ -65,7 +65,7 @@ def sendmessage(Query): # This function send query to piai
    
    sleep(1) # Sleep for a second !!
    
-   xPATH2 = "/html/body/div/main/div/div/div[3]/div[1]/div[4]/div/button" # Send Button xpath
+   xPATH2 = "/html/body/div/main/div/div/div[3]/div[2]/div[2]/div/div[2]/button" # Send Button xpath
    driver.find_element(by=By.XPATH,value=xPATH2).click() # Clicking on send button
    
    sleep(3) # Waiting for piai full reply to scrapp full data
